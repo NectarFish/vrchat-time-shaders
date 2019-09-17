@@ -1,0 +1,13 @@
+version: "2.1"
+
+services:
+  vtss:
+    build: .
+    container_name: "vrchat_time_shader_server"
+    ports:
+      - "4305:4305"
+    logging:
+      options:
+        max-size: "1G"
+        max-file: "10"
+    restart: always
