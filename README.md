@@ -1,3 +1,5 @@
+SDK3 does not have a Panorama component, but you can use the `lumina-api` patch to support SDK3
+
 [https://blog.lumina.moe/api#vrchat-time-shaders](https://blog.lumina.moe/api#vrchat-time-shaders)
 
 ----
